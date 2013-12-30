@@ -26,6 +26,9 @@
 		444A537E18716F25006B9DB7 /* TPKeyboardAvoidingScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 444A537818716F25006B9DB7 /* TPKeyboardAvoidingScrollView.m */; };
 		444A537F18716F25006B9DB7 /* TPKeyboardAvoidingTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 444A537A18716F25006B9DB7 /* TPKeyboardAvoidingTableView.m */; };
 		444A538018716F25006B9DB7 /* UIScrollView+TPKeyboardAvoidingAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 444A537C18716F25006B9DB7 /* UIScrollView+TPKeyboardAvoidingAdditions.m */; };
+		44CD235B187190AD0065887B /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 44CD235A187190AD0065887B /* README.md */; };
+		44CD235E1871B9720065887B /* mainMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 44CD235D1871B9720065887B /* mainMenuViewController.m */; };
+		44CD23601871BC1B0065887B /* testimg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 44CD235F1871BC1B0065887B /* testimg.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +70,10 @@
 		444A537A18716F25006B9DB7 /* TPKeyboardAvoidingTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPKeyboardAvoidingTableView.m; sourceTree = "<group>"; };
 		444A537B18716F25006B9DB7 /* UIScrollView+TPKeyboardAvoidingAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+TPKeyboardAvoidingAdditions.h"; sourceTree = "<group>"; };
 		444A537C18716F25006B9DB7 /* UIScrollView+TPKeyboardAvoidingAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+TPKeyboardAvoidingAdditions.m"; sourceTree = "<group>"; };
+		44CD235A187190AD0065887B /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
+		44CD235C1871B9720065887B /* mainMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mainMenuViewController.h; sourceTree = "<group>"; };
+		44CD235D1871B9720065887B /* mainMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = mainMenuViewController.m; sourceTree = "<group>"; };
+		44CD235F1871BC1B0065887B /* testimg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = testimg.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,6 +139,8 @@
 				444A5342186EE9B1006B9DB7 /* Main_iPad.storyboard */,
 				444A5365186EEA3B006B9DB7 /* loginViewController.h */,
 				444A5366186EEA3B006B9DB7 /* loginViewController.m */,
+				44CD235C1871B9720065887B /* mainMenuViewController.h */,
+				44CD235D1871B9720065887B /* mainMenuViewController.m */,
 				444A5348186EE9B1006B9DB7 /* Images.xcassets */,
 				444A5334186EE9B1006B9DB7 /* Supporting Files */,
 			);
@@ -145,6 +154,7 @@
 				444A5336186EE9B1006B9DB7 /* InfoPlist.strings */,
 				444A5339186EE9B1006B9DB7 /* main.m */,
 				444A533B186EE9B1006B9DB7 /* MirrorOnTheWall-Prefix.pch */,
+				44CD235F1871BC1B0065887B /* testimg.jpg */,
 				444A537418716F25006B9DB7 /* TPKeyboardAvoiding */,
 			);
 			name = "Supporting Files";
@@ -179,6 +189,7 @@
 				444A537A18716F25006B9DB7 /* TPKeyboardAvoidingTableView.m */,
 				444A537B18716F25006B9DB7 /* UIScrollView+TPKeyboardAvoidingAdditions.h */,
 				444A537C18716F25006B9DB7 /* UIScrollView+TPKeyboardAvoidingAdditions.m */,
+				44CD235A187190AD0065887B /* README.md */,
 			);
 			path = TPKeyboardAvoiding;
 			sourceTree = "<group>";
@@ -261,6 +272,8 @@
 			files = (
 				444A5344186EE9B1006B9DB7 /* Main_iPad.storyboard in Resources */,
 				444A5349186EE9B1006B9DB7 /* Images.xcassets in Resources */,
+				44CD23601871BC1B0065887B /* testimg.jpg in Resources */,
+				44CD235B187190AD0065887B /* README.md in Resources */,
 				444A5341186EE9B1006B9DB7 /* Main_iPhone.storyboard in Resources */,
 				444A5338186EE9B1006B9DB7 /* InfoPlist.strings in Resources */,
 			);
@@ -285,6 +298,7 @@
 				444A537E18716F25006B9DB7 /* TPKeyboardAvoidingScrollView.m in Sources */,
 				444A533E186EE9B1006B9DB7 /* AppDelegate.m in Sources */,
 				444A538018716F25006B9DB7 /* UIScrollView+TPKeyboardAvoidingAdditions.m in Sources */,
+				44CD235E1871B9720065887B /* mainMenuViewController.m in Sources */,
 				444A537F18716F25006B9DB7 /* TPKeyboardAvoidingTableView.m in Sources */,
 				444A537D18716F25006B9DB7 /* TPKeyboardAvoidingCollectionView.m in Sources */,
 				444A533A186EE9B1006B9DB7 /* main.m in Sources */,
@@ -506,6 +520,7 @@
 				444A5361186EE9B1006B9DB7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		444A5362186EE9B1006B9DB7 /* Build configuration list for PBXNativeTarget "MirrorOnTheWallTests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +529,7 @@
 				444A5364186EE9B1006B9DB7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
