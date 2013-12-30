@@ -15,7 +15,6 @@
 		444A533E186EE9B1006B9DB7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 444A533D186EE9B1006B9DB7 /* AppDelegate.m */; };
 		444A5341186EE9B1006B9DB7 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 444A533F186EE9B1006B9DB7 /* Main_iPhone.storyboard */; };
 		444A5344186EE9B1006B9DB7 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 444A5342186EE9B1006B9DB7 /* Main_iPad.storyboard */; };
-		444A5347186EE9B1006B9DB7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 444A5346186EE9B1006B9DB7 /* ViewController.m */; };
 		444A5349186EE9B1006B9DB7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 444A5348186EE9B1006B9DB7 /* Images.xcassets */; };
 		444A5350186EE9B1006B9DB7 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 444A534F186EE9B1006B9DB7 /* XCTest.framework */; };
 		444A5351186EE9B1006B9DB7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 444A532D186EE9B1006B9DB7 /* Foundation.framework */; };
@@ -23,6 +22,10 @@
 		444A535A186EE9B1006B9DB7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 444A5358186EE9B1006B9DB7 /* InfoPlist.strings */; };
 		444A535C186EE9B1006B9DB7 /* MirrorOnTheWallTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 444A535B186EE9B1006B9DB7 /* MirrorOnTheWallTests.m */; };
 		444A5367186EEA3B006B9DB7 /* loginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 444A5366186EEA3B006B9DB7 /* loginViewController.m */; };
+		444A537D18716F25006B9DB7 /* TPKeyboardAvoidingCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 444A537618716F25006B9DB7 /* TPKeyboardAvoidingCollectionView.m */; };
+		444A537E18716F25006B9DB7 /* TPKeyboardAvoidingScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 444A537818716F25006B9DB7 /* TPKeyboardAvoidingScrollView.m */; };
+		444A537F18716F25006B9DB7 /* TPKeyboardAvoidingTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 444A537A18716F25006B9DB7 /* TPKeyboardAvoidingTableView.m */; };
+		444A538018716F25006B9DB7 /* UIScrollView+TPKeyboardAvoidingAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 444A537C18716F25006B9DB7 /* UIScrollView+TPKeyboardAvoidingAdditions.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,8 +51,6 @@
 		444A533D186EE9B1006B9DB7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		444A5340186EE9B1006B9DB7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
 		444A5343186EE9B1006B9DB7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
-		444A5345186EE9B1006B9DB7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		444A5346186EE9B1006B9DB7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		444A5348186EE9B1006B9DB7 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		444A534E186EE9B1006B9DB7 /* MirrorOnTheWallTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MirrorOnTheWallTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		444A534F186EE9B1006B9DB7 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -58,6 +59,14 @@
 		444A535B186EE9B1006B9DB7 /* MirrorOnTheWallTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MirrorOnTheWallTests.m; sourceTree = "<group>"; };
 		444A5365186EEA3B006B9DB7 /* loginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = loginViewController.h; sourceTree = "<group>"; };
 		444A5366186EEA3B006B9DB7 /* loginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = loginViewController.m; sourceTree = "<group>"; };
+		444A537518716F25006B9DB7 /* TPKeyboardAvoidingCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPKeyboardAvoidingCollectionView.h; sourceTree = "<group>"; };
+		444A537618716F25006B9DB7 /* TPKeyboardAvoidingCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPKeyboardAvoidingCollectionView.m; sourceTree = "<group>"; };
+		444A537718716F25006B9DB7 /* TPKeyboardAvoidingScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPKeyboardAvoidingScrollView.h; sourceTree = "<group>"; };
+		444A537818716F25006B9DB7 /* TPKeyboardAvoidingScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPKeyboardAvoidingScrollView.m; sourceTree = "<group>"; };
+		444A537918716F25006B9DB7 /* TPKeyboardAvoidingTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPKeyboardAvoidingTableView.h; sourceTree = "<group>"; };
+		444A537A18716F25006B9DB7 /* TPKeyboardAvoidingTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPKeyboardAvoidingTableView.m; sourceTree = "<group>"; };
+		444A537B18716F25006B9DB7 /* UIScrollView+TPKeyboardAvoidingAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+TPKeyboardAvoidingAdditions.h"; sourceTree = "<group>"; };
+		444A537C18716F25006B9DB7 /* UIScrollView+TPKeyboardAvoidingAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+TPKeyboardAvoidingAdditions.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,8 +130,6 @@
 				444A533D186EE9B1006B9DB7 /* AppDelegate.m */,
 				444A533F186EE9B1006B9DB7 /* Main_iPhone.storyboard */,
 				444A5342186EE9B1006B9DB7 /* Main_iPad.storyboard */,
-				444A5345186EE9B1006B9DB7 /* ViewController.h */,
-				444A5346186EE9B1006B9DB7 /* ViewController.m */,
 				444A5365186EEA3B006B9DB7 /* loginViewController.h */,
 				444A5366186EEA3B006B9DB7 /* loginViewController.m */,
 				444A5348186EE9B1006B9DB7 /* Images.xcassets */,
@@ -138,6 +145,7 @@
 				444A5336186EE9B1006B9DB7 /* InfoPlist.strings */,
 				444A5339186EE9B1006B9DB7 /* main.m */,
 				444A533B186EE9B1006B9DB7 /* MirrorOnTheWall-Prefix.pch */,
+				444A537418716F25006B9DB7 /* TPKeyboardAvoiding */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -158,6 +166,21 @@
 				444A5358186EE9B1006B9DB7 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		444A537418716F25006B9DB7 /* TPKeyboardAvoiding */ = {
+			isa = PBXGroup;
+			children = (
+				444A537518716F25006B9DB7 /* TPKeyboardAvoidingCollectionView.h */,
+				444A537618716F25006B9DB7 /* TPKeyboardAvoidingCollectionView.m */,
+				444A537718716F25006B9DB7 /* TPKeyboardAvoidingScrollView.h */,
+				444A537818716F25006B9DB7 /* TPKeyboardAvoidingScrollView.m */,
+				444A537918716F25006B9DB7 /* TPKeyboardAvoidingTableView.h */,
+				444A537A18716F25006B9DB7 /* TPKeyboardAvoidingTableView.m */,
+				444A537B18716F25006B9DB7 /* UIScrollView+TPKeyboardAvoidingAdditions.h */,
+				444A537C18716F25006B9DB7 /* UIScrollView+TPKeyboardAvoidingAdditions.m */,
+			);
+			path = TPKeyboardAvoiding;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,8 +282,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				444A5367186EEA3B006B9DB7 /* loginViewController.m in Sources */,
-				444A5347186EE9B1006B9DB7 /* ViewController.m in Sources */,
+				444A537E18716F25006B9DB7 /* TPKeyboardAvoidingScrollView.m in Sources */,
 				444A533E186EE9B1006B9DB7 /* AppDelegate.m in Sources */,
+				444A538018716F25006B9DB7 /* UIScrollView+TPKeyboardAvoidingAdditions.m in Sources */,
+				444A537F18716F25006B9DB7 /* TPKeyboardAvoidingTableView.m in Sources */,
+				444A537D18716F25006B9DB7 /* TPKeyboardAvoidingCollectionView.m in Sources */,
 				444A533A186EE9B1006B9DB7 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
