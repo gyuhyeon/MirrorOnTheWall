@@ -1,18 +1,18 @@
 //
-//  mainMenuViewController.m
+//  profileViewController.m
 //  MirrorOnTheWall
 //
-//  Created by Mark on 12/30/13.
+//  Created by Mark on 12/31/13.
 //  Copyright (c) 2013 Gyuhyeon Lee. All rights reserved.
 //
 
-#import "mainMenuViewController.h"
+#import "profileViewController.h"
 
-@interface mainMenuViewController ()
+@interface profileViewController ()
 
 @end
 
-@implementation mainMenuViewController
+@implementation profileViewController
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -28,7 +28,6 @@
     [super viewDidLoad];
 	// Do any additional setup after loading the view.
 }
-
 
 
 

@@ -46,6 +46,7 @@
     {
         mainMenuViewController *mainMenuViewController =
         [self.storyboard instantiateViewControllerWithIdentifier:@"mainMenuViewController"];
+        mainMenuViewController.modalTransitionStyle=UIModalTransitionStyleCrossDissolve;
         [self presentViewController:mainMenuViewController animated:YES completion:nil];
     }
     else

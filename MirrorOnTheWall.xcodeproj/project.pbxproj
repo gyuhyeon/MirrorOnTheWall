@@ -29,6 +29,9 @@
 		44CD235B187190AD0065887B /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 44CD235A187190AD0065887B /* README.md */; };
 		44CD235E1871B9720065887B /* mainMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 44CD235D1871B9720065887B /* mainMenuViewController.m */; };
 		44CD23601871BC1B0065887B /* testimg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 44CD235F1871BC1B0065887B /* testimg.jpg */; };
+		44CD23661871C2DC0065887B /* profileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 44CD23651871C2DC0065887B /* profileViewController.m */; };
+		44CD23691871C73B0065887B /* cameraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 44CD23681871C73B0065887B /* cameraViewController.m */; };
+		44CD236C1871C75A0065887B /* evaluationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 44CD236B1871C75A0065887B /* evaluationViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -74,6 +77,12 @@
 		44CD235C1871B9720065887B /* mainMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mainMenuViewController.h; sourceTree = "<group>"; };
 		44CD235D1871B9720065887B /* mainMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = mainMenuViewController.m; sourceTree = "<group>"; };
 		44CD235F1871BC1B0065887B /* testimg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = testimg.jpg; sourceTree = "<group>"; };
+		44CD23641871C2DC0065887B /* profileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = profileViewController.h; sourceTree = "<group>"; };
+		44CD23651871C2DC0065887B /* profileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = profileViewController.m; sourceTree = "<group>"; };
+		44CD23671871C73B0065887B /* cameraViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cameraViewController.h; sourceTree = "<group>"; };
+		44CD23681871C73B0065887B /* cameraViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = cameraViewController.m; sourceTree = "<group>"; };
+		44CD236A1871C75A0065887B /* evaluationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = evaluationViewController.h; sourceTree = "<group>"; };
+		44CD236B1871C75A0065887B /* evaluationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = evaluationViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -141,6 +150,12 @@
 				444A5366186EEA3B006B9DB7 /* loginViewController.m */,
 				44CD235C1871B9720065887B /* mainMenuViewController.h */,
 				44CD235D1871B9720065887B /* mainMenuViewController.m */,
+				44CD23641871C2DC0065887B /* profileViewController.h */,
+				44CD23651871C2DC0065887B /* profileViewController.m */,
+				44CD23671871C73B0065887B /* cameraViewController.h */,
+				44CD23681871C73B0065887B /* cameraViewController.m */,
+				44CD236A1871C75A0065887B /* evaluationViewController.h */,
+				44CD236B1871C75A0065887B /* evaluationViewController.m */,
 				444A5348186EE9B1006B9DB7 /* Images.xcassets */,
 				444A5334186EE9B1006B9DB7 /* Supporting Files */,
 			);
@@ -299,9 +314,12 @@
 				444A533E186EE9B1006B9DB7 /* AppDelegate.m in Sources */,
 				444A538018716F25006B9DB7 /* UIScrollView+TPKeyboardAvoidingAdditions.m in Sources */,
 				44CD235E1871B9720065887B /* mainMenuViewController.m in Sources */,
+				44CD23661871C2DC0065887B /* profileViewController.m in Sources */,
 				444A537F18716F25006B9DB7 /* TPKeyboardAvoidingTableView.m in Sources */,
 				444A537D18716F25006B9DB7 /* TPKeyboardAvoidingCollectionView.m in Sources */,
 				444A533A186EE9B1006B9DB7 /* main.m in Sources */,
+				44CD23691871C73B0065887B /* cameraViewController.m in Sources */,
+				44CD236C1871C75A0065887B /* evaluationViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -438,10 +456,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Tae Keun Lee (R75J2RK3H9)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MirrorOnTheWall/MirrorOnTheWall-Prefix.pch";
 				INFOPLIST_FILE = "MirrorOnTheWall/MirrorOnTheWall-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "426D4B8B-8D50-4E45-88A0-EC0FA2D2D7B0";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -451,10 +472,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Tae Keun Lee (XQ99766KQD)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MirrorOnTheWall/MirrorOnTheWall-Prefix.pch";
 				INFOPLIST_FILE = "MirrorOnTheWall/MirrorOnTheWall-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "426D4B8B-8D50-4E45-88A0-EC0FA2D2D7B0";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
