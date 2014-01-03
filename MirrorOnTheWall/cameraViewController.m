@@ -47,26 +47,12 @@
 - (void)imagePickerController:(UIImagePickerController *)picker didFinishPickingMediaWithInfo:(NSDictionary *)info {
     
     UIImage *chosenImage = info[UIImagePickerControllerEditedImage];
-    /*
-    UIImage *image = chosenImage;
-    UIImage *tempImage = nil;
-    CGSize targetSize = CGSizeMake(320,320);
-    UIGraphicsBeginImageContext(targetSize);
     
-    CGRect thumbnailRect = CGRectMake(0, 0, 0, 0);
-    thumbnailRect.origin = CGPointMake(0.0,0.0);
-    thumbnailRect.size.width  = targetSize.width;
-    thumbnailRect.size.height = targetSize.height;
-    
-    [image drawInRect:thumbnailRect];
-    
-    tempImage = UIGraphicsGetImageFromCurrentImageContext();
-    
-    UIGraphicsEndImageContext();
-    
-    chosenImage = tempImage;
-    */
+#warning temporary imageview to verify the function of camera, terminate after server communication implementation.
     self.cameraImageView.image = chosenImage;
+    
+#warning need code for sending image to server.
+    //send(chosenImage);
     
     [picker dismissViewControllerAnimated:YES completion:NULL];
     
