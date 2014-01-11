@@ -29,6 +29,9 @@
 	// Do any additional setup after loading the view.
 }
 
+- (IBAction)backAction:(id)sender {
+    [self dismissViewControllerAnimated:YES completion:nil];
+}
 
 
 
